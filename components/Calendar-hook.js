@@ -83,6 +83,10 @@ export default function Calendar() {
         )
     }
 
+    const see = () => {
+        
+    }
+
     const nextMonth = () =>{
         let dateObject = Object.assign({}, dateContext);
         dateObject = moment(dateObject).add(1, "month");
