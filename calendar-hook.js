@@ -15,7 +15,7 @@ import Constants from 'expo-constants';
 
 export default function Calendar() {
     const [dateContext, setDateContext] = useState(moment());
-
+    
     const [screenData, setScreenData] = useState(Dimensions.get('screen'));
     useEffect(() => {
           setScreenData(screenData => screenData || '350px');
